@@ -1,0 +1,89 @@
+body, html {
+    margin: 0px;
+    padding: 0px;
+    width: 100vw;
+    height: 100vh;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#kontejner {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    background-color: red;
+    width: 500px;
+    height: 500px;
+}
+.kvadrat{
+    width: auto;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.kvadrat:nth-of-type(1){
+    background-color: white;
+    border-bottom: 1px solid black;
+    border-right: 1px solid black;
+}
+.kvadrat:nth-of-type(2){
+    background-color: white;
+    border:1px solid black;
+    border-top: 0;
+}
+.kvadrat:nth-of-type(3){
+    background-color: white;
+    border-bottom: 1px solid black;
+    border-left: 1px solid black;
+}
+.kvadrat:nth-of-type(4){
+    background-color: white;
+    border:1px solid black;
+    border-left: 0;
+}
+.kvadrat:nth-of-type(5){
+    background-color: white;
+    border:1px solid black;
+}
+.kvadrat:nth-of-type(6){
+    background-color: white;
+    border:1px solid black;
+    border-right: 0;
+}
+.kvadrat:nth-of-type(7){
+    background-color: white;
+    border-top: 1px solid black;
+    border-right: 1px solid black;
+}
+.kvadrat:nth-of-type(8){
+    background-color: white;
+    border:1px solid black;
+    border-bottom: 0;
+}
+.kvadrat:nth-of-type(9){
+    background-color: white;
+    border-top: 1px solid black;
+    border-left: 1px solid black;
+}
+#pobeda{
+    position: absolute;
+    z-index: 3;
+    background-color: rgba(0, 0,0, 0.9);
+    color: white;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    font-size: 30vh;
+    width: 100vw;
+    height: 100vh;
+}
+#pobedatext{
+    display: block;
+}
+#pobeda button{
+    display: block;
+    font-size: 40px;
+    margin-left: 20px;
+}
