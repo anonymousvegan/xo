@@ -88,6 +88,7 @@ display: none;
     background-color:black;
     font-size: 100px;
 }
+​
 #pobeda button{
     width: 300px;
     font-size:30px;
@@ -97,3 +98,8 @@ display: none;
     left: 50%;
     transform: translateX(-50%);
 }
+@media only screen and (max-width: 600px) {
+    body {
+      background-color: lightblue;
+    }
+  }
