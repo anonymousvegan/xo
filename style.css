@@ -94,13 +94,13 @@ display: none;
     font-size:30px;
     height: 40px;
     position: absolute;
-    bottom: 30px;
+    top: 30px;
     left: 50%;
     transform: translateX(-50%);
     border: 1px solid green;
 }
 @media only screen and (max-width: 600px) {
     #pobedatext {
-        font-size: 30px;
+        font-size: 25px;
     }
   }
