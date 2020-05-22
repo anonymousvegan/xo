@@ -87,7 +87,6 @@ display: none;
     background-color:black;
     font-size: 100px;
     left: 50%;
-    border: 1px solid red;
     transform: translateX(-50%)
 }
 #pobeda button{
@@ -95,12 +94,13 @@ display: none;
     font-size:30px;
     height: 40px;
     position: absolute;
-    bottom: 10px;
+    bottom: 30px;
     left: 50%;
     transform: translateX(-50%);
+    border: 1px solid green;
 }
 @media only screen and (max-width: 600px) {
     #pobedatext {
-        font-size: 40px;
+        font-size: 30px;
     }
   }
