@@ -51,6 +51,10 @@ else{
     odigrajo();
 }
 }
+else{
+    document.getElementById("pobeda").style.display="flex";
+    document.getElementById("pobedatext").innerHTML="Nerešeno";
+}
 }
 //ODIGRAJ X
 function odigraj(x){
